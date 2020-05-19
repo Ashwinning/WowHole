@@ -3,11 +3,6 @@ from os import listdir
 from os.path import isfile, join
 import csv
 
-
-'''
-with open('relationMap.json', 'r') as f:
-	json.load(f)
-'''
 mypath = 'tweets'
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 

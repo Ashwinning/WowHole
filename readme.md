@@ -44,7 +44,7 @@ Once your app.py function stops running, run:
 python generateHierarchy.py
 ```
 
-> This won't take too long to run, and create a file called `data.csv`. This file contains all the quote-tweets and their relationships, which can now be uploaded to draw.io
+> This won't take too long to run. `generateHierarchy.py` goes through all the tweets in the `tweets/` folder, and creates a file called `data.csv`, which contains all the quote-tweets and their relationships. `data.csv` can now be uploaded to draw.io
 
 > Draw.io offers _not the nicest_ way, to [upload a CSV file and create a diagram out of it](https://drawio-app.com/automatically-create-draw-io-diagrams-from-csv-files/). While it may _not be the nicest_, it is still extremely powerful and saves us a lot of coding and hassle, plus gives us a _pleasant_ visual interface to edit & publish things!
 
